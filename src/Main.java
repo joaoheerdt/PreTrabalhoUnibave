@@ -60,8 +60,7 @@ O programa deve continuar sendo executado até que o usuário escolha a opção 
                 break;
 
             case 3:
-                int numero = Integer.parseInt(
-                        JOptionPane.showInputDialog("Digite um número:")
+                int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número:")
                 );
 
                 String pares = "Números pares:\n";
@@ -76,7 +75,7 @@ O programa deve continuar sendo executado até que o usuário escolha a opção 
             case 4:
                 int soma = 0;
                 for (int i = 1; i <= 100; i++) {
-                    soma += i;
+                    soma = soma + i;
                 }
                 JOptionPane.showMessageDialog(null,
                         "Soma de 1 até 100: " + soma);
